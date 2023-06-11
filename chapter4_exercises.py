@@ -6,9 +6,9 @@
 # Prompt user to try again. y will loop again and n will stop loop
 keep_going = 'y'
 while keep_going == 'y':
-    firstNumber = int(input("Enter a number: "))
-    secondNumber = int(input("Enter a number: "))
-    print("The sum of the two numbers is", (firstNumber + secondNumber))
+    first_number = int(input("Enter a number: "))
+    second_number = int(input("Enter a number: "))
+    print("The sum of the two numbers is", (first_number + second_number))
     keep_going = input("Do you want to try again? y or n: ")
 
 # Question 3
@@ -29,7 +29,7 @@ for day in range(1, 6):
     total_bugs_collected += int(input("Enter number of bugs collected on day " + str(day) + ": "))
 print(f'You collected a total of {total_bugs_collected} bugs.')
 
-## Question 2 - Distance Traveled
+## Question 4 - Distance Traveled
 # Prompt the user for the speed and hours traveled
 # Print the table header before the loop
 # Loop for each hour and calcuate the speed multipled by that hour value
@@ -40,3 +40,11 @@ print("Hour     Distance Traveled")
 print("----------------------------")
 for hour in range(1, hours + 1):
     print(str(hour) + "        " + str((speed * hour)))
+    
+# Question 11 - Weight Loss
+# Prompt the user for their starting weight
+# Loop over each month, or 6 months, and subtract 4 pounds from their weight
+# Print their projected weight for each month in the loop
+weight = int(input("Enter your starting weight in pounds: "))
+for month in range(1, 7):
+    print(f'Projected weight after month {month} is {weight} pounds')
