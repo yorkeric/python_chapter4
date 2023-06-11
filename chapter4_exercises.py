@@ -32,5 +32,7 @@ print(f'You collected a total of {total_bugs_collected} bugs.')
 ## Question 2 - Distance Traveled
 speed = int(input("What is the speed of the vehicle in mph? "))
 hours = int(input("How many hours has it traveled? "))
+print("Hour     Distance Traveled")
+print("----------------------------")
 for hour in range(1, hours):
     print(str(hour) + "        " + str((speed * hour)))
