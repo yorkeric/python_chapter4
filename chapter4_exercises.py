@@ -56,6 +56,6 @@ for month in range(1, 7):
 # Loop over 7 times and staring with 7 asterisks, and each iteration reduce the number or astericks by one.
 for line in range(8, 1, -1):
     output = ""
-    for symbol in range (line):
+    for symbol in range (line - 1):
         output += "*"
     print(output)
