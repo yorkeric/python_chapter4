@@ -54,8 +54,8 @@ for month in range(1, 7):
 # There are a total of 7 lines
 # The pattern starts off with 7 asterisks on first line, 6 on second line, 5 on third line, etc
 # Loop over 7 times and staring with 7 asterisks, and each iteration reduce the number or astericks by one.
-output = ""
-for line in range(1,7):
+for line in range(8, 1, -1):
+    output = ""
     for symbol in range (line):
         output += "*"
-        print(output)
+    print(output)
