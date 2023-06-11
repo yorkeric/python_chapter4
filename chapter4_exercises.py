@@ -1,4 +1,5 @@
 # Algorithm Workbench
+
 # Question 2
 # Set iterator with inital value of y and loop until user sets value to n
 # Prompt user for two values and print the sum
@@ -16,3 +17,12 @@ while keep_going == 'y':
 # Format with , separated instead of new line (default format)
 for number in range(101):
     print(number * 10, end = ",")
+
+
+# Programming Exercises
+# Question 1 - Bug Collector
+# Loop five times (1, 6) and collect the number of bugs collected
+total_bugs_collected = 0
+bugs_collected = 0
+for day in range(1, 6):
+    bugs_collected = int(input("Enter number of bugs collected: "))
