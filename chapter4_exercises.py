@@ -7,5 +7,5 @@ keep_going = 'y'
 while keep_going == 'y':
     firstNumber = int(input("Enter a number: "))
     secondNumber = int(input("Enter a number: "))
-    print("The sum of the two numbers is ", (firstNumber + secondNumber))
+    print("The sum of the two numbers is", (firstNumber + secondNumber))
     keep_going = input("Do you want to try again? y or n: ")
