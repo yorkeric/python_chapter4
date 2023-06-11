@@ -47,4 +47,5 @@ for hour in range(1, hours + 1):
 # Print their projected weight for each month in the loop
 weight = int(input("Enter your starting weight in pounds: "))
 for month in range(1, 7):
+    weight -= 4
     print(f'Projected weight after month {month} is {weight} pounds')
