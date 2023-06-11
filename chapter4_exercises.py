@@ -11,6 +11,8 @@ while keep_going == 'y':
     keep_going = input("Do you want to try again? y or n: ")
     
 # Question 3
-# initial commit to print a range
-for number in range(0, 101):
-    print(number*10, end = ",")
+# Add for loop with a range. Use range number 101 equlivant to 0, 101
+# Each loop, print the calculation of the range value times 10 
+# Format with , separated instead of new line (default format)
+for number in range(101):
+    print(number * 10, end = ",")
