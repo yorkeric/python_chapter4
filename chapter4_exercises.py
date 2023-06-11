@@ -13,4 +13,4 @@ while keep_going == 'y':
 # Question 3
 # initial commit to print a range
 for number in range(0, 100):
-    print(number*10)
+    print(number*10, end = ",")
