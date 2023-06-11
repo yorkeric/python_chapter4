@@ -30,6 +30,10 @@ for day in range(1, 6):
 print(f'You collected a total of {total_bugs_collected} bugs.')
 
 ## Question 2 - Distance Traveled
+# Prompt the user for the speed and hours traveled
+# Print the table header before the loop
+# Loop for each hour and calcuate the speed multipled by that hour value
+# Print the hour value and the total distance based on the spped multipled by the hour
 speed = int(input("What is the speed of the vehicle in mph? "))
 hours = int(input("How many hours has it traveled? "))
 print("Hour     Distance Traveled")
