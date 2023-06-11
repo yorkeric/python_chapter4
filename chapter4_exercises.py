@@ -21,8 +21,12 @@ for number in range(101):
 
 # Programming Exercises
 # Question 1 - Bug Collector
-# Loop five times (1, 6) and collect the number of bugs collected
+# Loop five times (1, 6) and store the number of bugs collected
+# Use the augmented assignment operator to calculate the running total of bugs collected
+# After the loop, print the total bugs collected
 total_bugs_collected = 0
 bugs_collected = 0
 for day in range(1, 6):
     bugs_collected = int(input("Enter number of bugs collected: "))
+    total_bugs_collected += bugs_collected
+print(f'You collected a total of {total_bugs_collected} bugs.')
