@@ -49,3 +49,13 @@ weight = int(input("Enter your starting weight in pounds: "))
 for month in range(1, 7):
     weight -= 4
     print(f'Projected weight after month {month} is {weight} pounds')
+
+# Question 14 - Print pattern
+# There are a total of 7 lines
+# The pattern starts off with 7 asterisks on first line, 6 on second line, 5 on third line, etc
+# Loop over 7 times and staring with 7 asterisks, and each iteration reduce the number or astericks by one.
+output = ""
+for line in range(1,7):
+    for symbol in range (line):
+        output += "*"
+        print(output)
