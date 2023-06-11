@@ -9,3 +9,8 @@ while keep_going == 'y':
     secondNumber = int(input("Enter a number: "))
     print("The sum of the two numbers is", (firstNumber + secondNumber))
     keep_going = input("Do you want to try again? y or n: ")
+    
+# Question 3
+# initial commit to print a range
+for number in range(0, 100):
+    print(number*10)
